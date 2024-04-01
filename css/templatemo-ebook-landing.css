@@ -11,10 +11,10 @@ https://templatemo.com/tm-588-ebook-landing
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #E76F51;
-  --secondary-color:              #E9C46A;
+  --primary-color:                #42216c;
+  --secondary-color:              #42216c;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #F4A261;
+  --custom-btn-bg-color:          #42216c;
   --custom-btn-bg-hover-color:    #E76F51;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -417,7 +417,7 @@ strong {
 }
 
 .navbar {
-  background: transparent;
+  background: var(--primary-color);
   z-index: 99;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -572,6 +572,7 @@ strong {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
+
 .hero-section .row {
   position: relative;
   z-index: 22;
@@ -604,6 +605,7 @@ strong {
   padding-bottom: 50px;
 }
 
+/*
 .featured-section::after {
   content: "";
   position: absolute;
@@ -616,7 +618,7 @@ strong {
   border-color: transparent transparent var(--white-color) transparent;
   pointer-events: none;
 }
-
+*/
 
 /*---------------------------------------
   CUSTOM BLOCK              
@@ -657,7 +659,7 @@ strong {
 }
 
 .custom-block-image-wrap {
-  background-color: rgba(231, 111, 81, 0.85);
+  background-color: #42216c;
   border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);
   position: relative;
   z-index: 2;
@@ -805,6 +807,10 @@ strong {
   overflow: hidden;
 }
 
+
+
+
+/*
 .contact-section::before {
   content: "";
   position: absolute;
@@ -817,7 +823,7 @@ strong {
   border-color: var(--white-color) transparent transparent;
   pointer-events: none;
 }
-
+*/
 .contact-section .container {
   position: relative;
 }
@@ -972,6 +978,10 @@ strong {
   h6 {
     font-size: 18px;
   }
+
+#section_1 > div > div > div.col-lg-6.col-12.mb-5.pb-5.pb-lg-0.mb-lg-0 > h6 {
+	color: white;
+}
 
   .section-padding {
     padding-top: 50px;
